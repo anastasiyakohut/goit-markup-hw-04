@@ -88,7 +88,7 @@ img {
 }*/
 
 .header-menu-link {
-  color: #404bbf;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -99,12 +99,16 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-menu-link:first-child {
+  color: #404bbf;
+}
+
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
 }
 
-.header-menu-link:active::after {
+.header-menu-link:first-child::after {
   content: "";
   left: 0;
   bottom: -1px;
