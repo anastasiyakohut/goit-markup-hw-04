@@ -105,7 +105,7 @@ img {
   color: #404bbf;
 }
 
-.header-menu-link::after {
+.header-menu-link:hover::after {
   content: "";
   left: 0;
   bottom: -1px;
