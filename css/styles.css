@@ -100,12 +100,11 @@ img {
 }
 
 .header-menu-link:hover,
-.header-menu-link:focus,
-.header-menu-link:active {
+.header-menu-link:focus {
   color: #404bbf;
 }
 
-.header-menu-link:hover::after {
+.header-menu-link:active::after {
   content: "";
   left: 0;
   bottom: -1px;
