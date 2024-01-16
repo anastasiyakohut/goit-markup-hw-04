@@ -97,9 +97,6 @@ img {
   display: block;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-menu-item:first-child {
   color: #404bbf;
 }
 
@@ -108,7 +105,7 @@ img {
   color: #404bbf;
 }
 
-.header-menu-item::after {
+.header-menu-link::after {
   content: "";
   left: 0;
   bottom: -1px;
